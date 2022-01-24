@@ -12,7 +12,7 @@ Firmware_Diy_Core() {
 
 	Short_Firmware_Date=true
 	Checkout_Virtual_Images=false
-	Firmware_Format=tar.gz
+	Firmware_Format=auto
 	REGEX_Skip_Checkout="packages|buildinfo|sha256sums|manifest|kernel|rootfs|factory"
 
 	INCLUDE_AutoBuild_Features=true
